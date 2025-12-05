@@ -2,7 +2,10 @@
 
 A 3D interactive web tool to visualize the Solar Neighborhood (up to 650 parsecs) using data from the European Space Agency's **Gaia mission**. This tool identifies star clusters, detects potential **tidal tails** (stars being stripped from clusters), and provides an interactive **Hertzsprung-Russell (HR) Diagram** for stellar analysis.
 
-![Gaia Visualizer Screenshot](https://via.placeholder.com/800x450?text=Gaia+Star+Cluster+Visualizer)
+![Gaia Visualizer Screenshot](./screenshot.png)
+
+### Demo Video
+![Demo](./demo.webp)
 
 ## Features
 
