@@ -17,7 +17,17 @@ export function ClusterHighlighter({ analysis, onSelect }) {
 
                     {/* Label */}
                     <Html distanceFactor={100}>
-                        <div style={{ color: 'hotpink', background: 'rgba(0,0,0,0.5)', padding: '2px 5px', borderRadius: '4px' }}>
+                        <div
+                            onClick={(e) => { e.stopPropagation(); onSelect(cluster); }}
+                            style={{
+                                color: 'hotpink',
+                                background: 'rgba(0,0,0,0.5)',
+                                padding: '2px 5px',
+                                borderRadius: '4px',
+                                cursor: 'pointer',
+                                pointerEvents: 'auto'
+                            }}
+                        >
                             Cluster {cluster.id}
                         </div>
                     </Html>
